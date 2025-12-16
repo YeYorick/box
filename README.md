@@ -1,7 +1,7 @@
 这是一个非常方便的Linux工具包，相信你会喜欢上它
 
 # 脚本功能演示
-![image](https://github.com/wuliao1223/box/assets/59786070/cd4c9a73-69a5-41b2-aac1-f959d2111482)
+![image](https://github.com/YeYorick/box/assets/59786070/cd4c9a73-69a5-41b2-aac1-f959d2111482)
 
 # [个人博客](https://www.233hhh.top)
 
@@ -18,7 +18,7 @@ yum install wget nano sudo -y
 bash <(curl -s -L bit.ly/233hhh)
 ```
 ```sh
-wget -N --no-check-certificate https://raw.githubusercontent.com/wuliao1223/box/main/bb  && chmod +x bb && bash bb
+wget -N --no-check-certificate https://raw.githubusercontent.com/YeYorick/box/main/bb  && chmod +x bb && bash bb
 ```
 
 # 更新日志
