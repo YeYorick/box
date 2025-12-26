@@ -47,7 +47,9 @@ warp(){
 
 
 # 科学 && BBR
-
+make-a(){
+	wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+}
 xray_233(){
   bash <(wget -qO- -o- https://github.com/233boy/Xray/raw/main/install.sh)
 }
@@ -103,7 +105,7 @@ start_menu(){
 	 
     green "========== 科学 && BBR ========="
 	 yellow " 11. BBR "
-
+	 yellow " 12 Make-a 八合一"
 	 yellow " 13. Reality "
 	 yellow " 14. Hysteria 2  "
 	 yellow " 15. 3X_UI "
@@ -129,7 +131,7 @@ start_menu(){
 		#  科学 && BBR
 #		10) bbr ;;
 		11) bbr2 ;;
-#		12) bbr_openvz ;;
+		12) make-a ;;
 		13) reality ;;
 		14) hysteria2 ;;
 		15) x_ui ;;
