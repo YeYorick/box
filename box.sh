@@ -126,7 +126,7 @@ start_menu(){
 		4) lmt ;;
 		5) lmt2 ;;
 		6) warp ;;
-		7) IPQuality ;;
+		7) NodeQuality ;;
 		8) block_ipv6 ;;
 		#  科学 && BBR
 #		10) bbr ;;
