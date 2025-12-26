@@ -100,7 +100,6 @@ start_menu(){
 	 yellow " 5. 流媒体检测 二 "
 	 yellow " 6. Warp "
 	 yellow " 7. NodeQuality "
-	 
     green "========== 科学 && BBR ========="
 	 yellow " 11. BBR "
 	 yellow " 12 Make-a 八合一"
