@@ -44,7 +44,11 @@ lmt2(){
 warp(){
   wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh
 }
-
+block_ipv6(){
+	sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+	sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
+	sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1
+}
 
 # 科学 && BBR
 make-a(){
@@ -100,6 +104,7 @@ start_menu(){
 	 yellow " 5. 流媒体检测 二 "
 	 yellow " 6. Warp "
 	 yellow " 7. NodeQuality "
+	 yellow " 9. 禁用IPV6"
     green "========== 科学 && BBR ========="
 	 yellow " 11. BBR "
 	 yellow " 12 Make-a 八合一"
@@ -124,7 +129,7 @@ start_menu(){
 		5) lmt2 ;;
 		6) warp ;;
 		7) IPQuality ;;
-		
+		8）block_ipv6 ;;
 		#  科学 && BBR
 #		10) bbr ;;
 		11) bbr2 ;;
