@@ -3,7 +3,7 @@
 # 脚本功能演示
 ![image](https://github.com/YeYorick/box/assets/59786070/cd4c9a73-69a5-41b2-aac1-f959d2111482)
 
-# [个人博客](https://www.233hhh.top)
+# [个人博客](https://blog.233hhh.top)
 
 
 # 使用方法
@@ -15,10 +15,10 @@ yum install wget nano sudo -y
 ```
 
 ```sh
-bash <(curl -s -L bit.ly/233hhh)
+bash <(curl -s -L bit.ly/233box)
 ```
 ```sh
-wget -N --no-check-certificate https://raw.githubusercontent.com/YeYorick/box/main/bb  && chmod +x bb && bash bb
+wget -N --no-check-certificate https://raw.githubusercontent.com/YeYorick/box/main/box.sh  && chmod +x bb && bash box.sh
 ```
 
 # 更新日志
