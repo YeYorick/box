@@ -18,7 +18,7 @@ yum install wget nano sudo -y
 bash <(curl -s -L bit.ly/233box)
 ```
 ```sh
-wget -N --no-check-certificate https://raw.githubusercontent.com/YeYorick/box/main/box.sh  && chmod +x bb && bash box.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/YeYorick/box/main/box.sh  && chmod +x box.sh && ./box.sh
 ```
 
 # 更新日志
