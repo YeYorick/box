@@ -107,7 +107,7 @@ start_menu(){
 	 yellow " 8. 禁用IPV6 "
     green "========== 科学 && BBR ========="
 	 yellow " 11. BBR "
-	 yellow " 12 Make-a 八合一"
+	 yellow " 12. Make-a 八合一"
 	 yellow " 13. Reality "
 	 yellow " 14. Hysteria 2  "
 	 yellow " 15. 3X_UI "
