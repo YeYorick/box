@@ -67,7 +67,9 @@ bbr(){
 bbr2(){
   wget -N --no-check-certificate "https://raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 }
-
+233sb(){
+	bash <(wget -qO- -o- https://github.com/233boy/sing-box/raw/main/install.sh)
+}
 x_ui(){
 	bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 }
@@ -109,6 +111,7 @@ start_menu(){
 	 yellow " 13. Reality "
 	 yellow " 14. Hysteria 2  "
 	 yellow " 15. 3X_UI "
+	 yellow " 16. 233_SingBox"
     green "========= 其他工具 ========="
 	 yellow " 20. Realm 中专 "
 	 yellow " 21. Gost 中专 "
@@ -135,6 +138,7 @@ start_menu(){
 		13) reality ;;
 		14) hysteria2 ;;
 		15) x_ui ;;
+		16) 233sb ;;
 		# 其他工具
 		20) realm ;;
 		21) gost ;;
