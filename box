@@ -124,7 +124,7 @@ start_menu(){
 	 yellow " 22. 安装 Docker "
 	 yellow " 23. 一键关闭 Centos7 防火墙 "
 	 yellow " 24. 安装Soga "
-	 yellow " 25.安装V2bx "
+	 yellow " 25. 安装V2bx "
 	 red    " 66. 更新脚本 "
  	 red    "  0. 退出脚本 "
     echo
