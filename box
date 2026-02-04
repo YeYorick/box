@@ -86,6 +86,12 @@ docker(){
 firewall(){
   systemctl stop firewalld.service  &&  systemctl disable firewalld.service 
 }
+Soga(){
+  wget -N https://raw.githubusercontent.com/vaxilu/soga/master/install.sh && bash install.sh
+}
+V2bx(){
+  wget -N https://raw.githubusercontent.com/wyx2685/V2bX-script/master/install.sh && bash install.sh
+}
 update(){
   wget -N --no-check-certificate https://raw.githubusercontent.com/wuliao1223/box/main/box  && chmod +x box && ./box
 }
@@ -117,6 +123,8 @@ start_menu(){
 	 yellow " 21. Gost 中专 "
 	 yellow " 22. 安装 Docker "
 	 yellow " 23. 一键关闭 Centos7 防火墙 "
+	 yellow " 24. 安装Soga "
+	 yellow " 25.安装V2bx "
 	 red    " 66. 更新脚本 "
  	 red    "  0. 退出脚本 "
     echo
@@ -144,6 +152,8 @@ start_menu(){
 		21) gost ;;
 		22) docker ;;
 		23) firewall ;;
+		24) Soga ;;
+		23) V2bx ;;
 		66) update ;;
 		 0) exit 0 ;;
 		*)
