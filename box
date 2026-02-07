@@ -89,7 +89,7 @@ firewall(){
 Soga(){
   wget -N https://raw.githubusercontent.com/vaxilu/soga/master/install.sh && bash install.sh
 }
-v2node{
+v2node(){
 	wget -N https://raw.githubusercontent.com/wyx2685/v2node/master/script/install.sh && bash install.sh
 }
 V2bx(){
