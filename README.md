@@ -13,7 +13,9 @@ apt update -y && apt install curl nano sudo -y
 ```go
 yum install wget nano sudo -y
 ```
-
+```go
+timedatectl set-timezone Asia/Shanghai
+```
 ```sh
 bash <(curl -s -L bit.ly/666box)
 ```
