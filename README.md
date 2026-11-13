@@ -16,6 +16,9 @@ yum install wget nano sudo -y
 ```go
 timedatectl set-timezone Asia/Shanghai
 ```
+```go
+echo -e "net.core.default_qdisc=fq\nnet.ipv4.tcp_congestion_control=bbr" |  tee -a /etc/sysctl.conf &&  sysctl -p
+```
 ```sh
 bash <(curl -s -L bit.ly/666box)
 ```
